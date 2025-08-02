@@ -1,0 +1,48 @@
+*{
+    margin: 0vw 0vh;
+    padding: 0vw 0vh;
+    border: 0vw 0vh;
+}
+
+html{
+    font-size: 16px;
+}
+
+.menuDesktop{
+    display: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.menuMobile{
+    margin: 30px
+}
+
+.menuMobile button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 3rem;
+}
+
+.botaoInicial button{
+    background-color: transparent;
+    border-radius: 19px;
+    padding: 2vw
+}
+
+.botaoInicial{
+    margin: 30px;
+}
