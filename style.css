@@ -1,11 +1,14 @@
 *{
     margin: 0vw 0vh;
     padding: 0vw 0vh;
-    border: 0vw 0vh;
 }
 
 html{
     font-size: 16px;
+}
+
+body{
+    font-family: "Inter", sans-serif;
 }
 
 .menuDesktop{
@@ -23,11 +26,11 @@ header{
 }
 
 .logo{
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .menuMobile{
-    margin: 30px
+    margin: 1.875rem;
 }
 
 .menuMobile button{
@@ -39,10 +42,139 @@ header{
 
 .botaoInicial button{
     background-color: transparent;
-    border-radius: 19px;
-    padding: 2vw
+    border-radius: 6.25rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 700;
+    color: #1D1D21;
 }
 
 .botaoInicial{
-    margin: 30px;
+    margin: 1.875rem;
+    margin-bottom: 0px;
+}
+
+.conteudoIntroducao{
+    margin: 1.875rem;
+    margin-top: 0.93rem;
+    margin-right: 0px;
+}
+
+.conteudoIntroducao h1{
+    font-size: 3.75rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    line-height: 110%;
+}
+
+.conteudoIntroducao p{
+    color: #878787;
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.botaoCasoEstudo{
+    margin: 1.875rem;
+}
+
+.botaoCasoEstudo button{
+    padding: 1rem 2rem;
+    border-radius: 6.25rem;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1D1D21;
+}
+
+.botaoVerVideo{
+    margin: 1.875rem;
+    margin-bottom: 0px;
+}
+
+.botaoVerVideo button{
+    width: 11.5rem;
+    padding: 1rem;
+    border-radius: 6.25rem;
+    background-color: #fff;
+    color: #101010;
+    font-weight: 550;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagemDestaque{
+    margin: 0px;
+    margin-top: -2.5rem;
+    margin-left: 1.875rem;
+    margin-bottom: 4rem;
+}
+
+.imagemDestaque img{
+    width: 90%;
+    height: auto;
+}
+
+.segundaPagina{
+    background-color: #28292D;
+    color: #fff;
+}
+
+.cabecalhoProjetos{
+    padding-top: 5rem;
+    margin-left: 1.875rem;
+    margin-right: 1rem;
+}
+
+.cabecalhoProjetos h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+.cabecalhoProjetos  p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1rem;
+}
+
+.estatisticas{
+    margin: 2.5rem;
+    margin-left: 1.875rem;
+}
+
+.dado{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.3rem;
+}
+
+.separar{
+    margin-left: 1.5rem;
+}
+
+.estilizar{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.imagem1{
+
+}
+
+.imagem2{
+
+}
+
+.imagem3{
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
 }
