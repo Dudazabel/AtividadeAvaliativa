@@ -120,6 +120,7 @@ header{
 .segundaPagina{
     background-color: #28292D;
     color: #fff;
+    padding-bottom: 5rem;
 }
 
 .cabecalhoProjetos{
@@ -163,18 +164,196 @@ header{
 }
 
 .imagem1{
-
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
 }
 
 .imagem2{
-
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .imagem3{
+   display: flex;
+   justify-content: end;
+   margin-left: 0.5rem;
+   margin-top: 0.3rem;
+}
 
+.imagem1 img{
+    width: 100%;
+    height: auto;
+}
+
+.imagem2 img{
+    width: 80%;
+    height: auto;
+}
+
+.imagem3 img{
+    width: 90%;
+    height: auto;
 }
 
 .galeria{
     display: flex;
     flex-direction: row;
 }
+
+.terceiraPagina{
+    padding-top: 3rem;
+}
+
+.cabecalhoInterior{
+    margin-left: 1.875rem;
+    max-width: 85%;
+}
+
+.cabecalhoInterior h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 115%;
+}
+
+.cabecalhoInterior p{
+    color: #757B8A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.imagemSuperior{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.8rem;
+}
+
+.imagemSuperior img{
+    width: 75%;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+.imagemInferior{
+    margin: 1.8rem;
+}
+
+.imagemInferior img{
+    width: 85%;
+    height: auto;
+    border-radius: 0.75rem;
+}
+
+.quartaPagina{
+    padding-top: 7rem;
+    margin-left: 1.875rem;
+    padding-bottom: 7rem;
+}
+
+.imagemQuartaPg img{
+    width: 90%;
+}
+
+.quartaFrase h2{
+    font-size: 3rem;
+    font-family: "DM Sans", sans-serif;
+    line-height: 115%;
+    font-weight: 700;
+    max-width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #101010;
+}
+
+.quartaFrase p{
+    color: #878787;
+    font-size: 1rem;
+    padding-right: 1.5rem;
+}
+
+.quintaPagina{
+    margin-left: 1.875rem;
+}
+
+.quintoTitulo {
+    display: flex;
+}
+
+.quintoTitulo h2{
+    font-size: 3rem;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    line-height: 115%;
+    text-align: center;
+    color: #1D1E25;
+}
+
+.galeria2{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagemProjeto img{
+    width: 90%;
+    height: auto;
+}
+
+.iconeEstrela img{
+    width: 100%;
+    height: auto;
+}
+
+.imagemTrabalhando img{
+    width: 90%;
+    height: auto;
+}
+
+.imagemProjeto{
+    padding-top: 3rem;
+}
+
+.imagemTrabalhando{
+    padding-top: 3rem;
+}
+
+.iconeEstrela{
+    padding-top: 10rem;
+    margin-right: 0.5rem;
+}
+
+.dica2{
+    display: none;
+}
+
+.dica1 h3{
+    color: #1D1E25;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.dica1 p{
+    color: #757B8A;
+    font-size: 0.875rem;
+    font-weight: 400;
+    max-width: 60%;
+    line-height: 150%;
+}
+
+.numero p{
+     font-family: "DM Sans", sans-serif;
+     font-size: 3.75rem;
+     font-weight: 700;
+     color: #E9ECF2;
+}
+
+.numero{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
