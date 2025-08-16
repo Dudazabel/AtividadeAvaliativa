@@ -589,7 +589,7 @@ footer{
     }
 
     .imagemDestaque{
-        margin-top: -40rem;
+        margin-top: -41rem;
         display: flex;
         justify-content: end;
         margin-right: 5rem;
@@ -599,7 +599,6 @@ footer{
         width: 60%;
         height: auto;
     }
-
     
     }
 
