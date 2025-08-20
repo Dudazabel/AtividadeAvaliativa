@@ -156,7 +156,7 @@ header{
     margin-bottom: 2.06rem;
 }
 
-.separar2 p{
+.separar p{
     color: #ABB2C3;
     font-size: 1.125rem;
     font-weight: 400;
@@ -589,7 +589,8 @@ footer{
 
     .logo{
         margin-left: 7.5rem;
-        margin-top: 1.8rem;
+        margin-top: 2rem;
+        margin-right: 2.38rem;
     }
 
     .login a{
@@ -659,25 +660,47 @@ footer{
         padding-left: 5.69rem;
     }
 
-    .botaoInicial{
+    .botaoInicial button{
         font-size: 0.875rem;
+        margin-top: 1.25rem;
     }
 
     .conteudoIntroducao h1{
         font-size: 8.75rem;
         max-width: 50%;
+        margin-top: 0.5rem;
     }
 
     .conteudoIntroducao p{
         font-size: 1rem;
+        max-width: 42%;
+        margin-top: 0.5rem;
+    }
+
+    .botaoCasoEstudo button{
+        padding: 1rem 2rem;
+    }
+
+    .botaoVerVideo button{
+        padding: 1rem 1.34rem ;
+    }
+
+    .botaoCasoEstudo {
+        margin-top: 3rem;
+    }
+
+    .botaoVerVideo {
+        margin-top: 3rem;
     }
 
     .imagemDestaque{
-        
+        margin-top: 0.92rem;
+        margin-left: -41rem;
+        margin-bottom: 6.57rem;
     }
 
     .imagemDestaque img{
-        width: 60%;
+        width: 100%;
         height: auto;
     }
 
@@ -694,6 +717,103 @@ footer{
     .segundaPagina{
         display: flex;
         flex-direction: row;
+        padding-left: 6rem;
+    }
+
+    .cabecalhoProjetos{
+        margin-top: 4.81rem;
+    }
+
+    .cabecalhoProjetos h2{
+        font-size: 4.5rem;
+        max-width: 45%;
+        margin-bottom: 1.5rem;
+    }
+
+    .cabecalhoProjetos p{
+        max-width: 85%;
+        margin-bottom: 4.12rem;
+    }
+
+    .dado img{
+        width: 15%;
+        height: 15%;
+        margin-top: 0.5rem;
+    }
+
+    .separar p{
+        font-size: 1.125rem;
+    }
+
+    .estilizar p{
+        font-size: 4rem;
+        line-height: 115%;
+    }
+
+    .separar2{
+        width: 45%;
+    }
+
+    .imagem1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagem2 img{
+         width: 75%;
+        height: 75%;
+    }
+
+    .imagem3 img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .separar3{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    .terceiraPagina{
+        padding-left: 6rem;
+    }
+
+    .cabecalhoInterior{
+        margin-top: 6.56rem;
+        width: 50%;
+    }
+
+    .cabecalhoInterior h2{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .cabecalhoInterior p{
+        font-weight: 500;
+        max-width: 75%;
+        margin-bottom: 4.06rem;
+    }
+
+    .imagemSuperior{
+        margin-top: 7.5rem;
+        margin-right: 7.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .imagemInferior{
+        margin: 0;
+        margin-bottom: 6.88rem;
+    }
+
+    .imagemSuperior img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemInferior img{
+        width: 67%;
+        height: 67%;
     }
 
     .separar4{
@@ -704,6 +824,36 @@ footer{
     .quartaPagina{
         display: flex;
         flex-direction: row;
+        padding-left: 6rem;
+    }
+
+    .quartaFrase{
+        width: 100%;
+    }
+
+    .imagemQuartaPg{
+        margin-bottom: -0.44rem;
+    }
+
+    .quartaFrase h2{
+        margin-top: 9.92rem;
+        font-size: 4rem;
+        display: flex;
+        margin-right: 7.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .quartaFrase p{
+        max-width: 75%;
+    }
+
+    .quintaPagina{
+        padding-left: 6rem;
+    }
+
+    .quintoTitulo h2{
+        font-size: 4rem;
+        max-width: 50%;
     }
 
     .dica2{
