@@ -60,6 +60,7 @@ header{
 
 .conteudoIntroducao{
     padding-left: 1.81rem;
+    z-index: 2;
 }
 
 .conteudoIntroducao h1{
@@ -115,6 +116,7 @@ header{
     padding-left: 1.81rem;
     margin-top: -2.5rem;
     margin-bottom: 4rem;
+    z-index: -1;
 }
 
 .imagemDestaque img{
@@ -575,7 +577,7 @@ footer{
     margin-bottom: 3rem;
 }
 
-@media(min-width: 1440px){
+@media(min-width: 1420px){
 
     .menuMobile{
         display: none;
@@ -828,7 +830,8 @@ footer{
     }
 
     .quartaFrase{
-        width: 100%;
+        width: 50%;
+        margin-left: 4.19rem;
     }
 
     .imagemQuartaPg{
@@ -838,13 +841,16 @@ footer{
     .quartaFrase h2{
         margin-top: 9.92rem;
         font-size: 4rem;
-        display: flex;
-        margin-right: 7.5rem;
         margin-bottom: 2rem;
     }
 
+    .imagemQuartaPg img{
+        width: 100%;
+        height: 85%;
+    }
+
     .quartaFrase p{
-        max-width: 75%;
+        max-width: 77%;
     }
 
     .quintaPagina{
@@ -852,13 +858,21 @@ footer{
     }
 
     .quintoTitulo{
-        max-width: 50%;
+        max-width: 60%;
     }
 
     .quintoTitulo h2{
         font-size: 4rem;
         margin-left: 9.5rem;
         margin-top: 9.69rem;
+    }
+
+    .galeria2{
+        margin-top: -10rem;
+    }
+
+    .imagemProjeto{
+        
     }
 
     .dica2{
