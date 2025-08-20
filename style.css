@@ -851,9 +851,14 @@ footer{
         padding-left: 6rem;
     }
 
+    .quintoTitulo{
+        max-width: 50%;
+    }
+
     .quintoTitulo h2{
         font-size: 4rem;
-        max-width: 50%;
+        margin-left: 9.5rem;
+        margin-top: 9.69rem;
     }
 
     .dica2{
