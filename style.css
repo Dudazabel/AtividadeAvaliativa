@@ -511,7 +511,7 @@ footer{
     padding-left: 1.5rem;
 }
 
-.tituloFinal h2{
+.tituloFinal1 h2{
     max-width: 70%;
     font-size: 1.5rem;
     font-weight: 700;
@@ -520,31 +520,38 @@ footer{
     color: #101010;
 }
 
+.tituloFinal2{
+    display: none;
+}
+
 .botao{
+    max-width: 300px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 2rem;
+    margin-top: 1.875rem;
+    margin-right: 1.5rem;
 }
 
-.botao p{
-    font-size: 1rem;
+.botao input{
+    border: 0;
+    border-bottom: 1px solid #E2E4EB;
+    width: 100%;
+}
+
+.botao input ::placeholder{
+    font-family: 'Inter';
     font-weight: 500;
-    line-height: 160%;
+    font-size: 1rem;
     color: #757B8A;
-    align-self: center;
 }
 
-.botao button{
-    width: 3.125rem;
-    height: 3.125rem;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius:0.5rem;
-    background-color: #101010;
-    color: #F9F9FB;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 150%;
+.botao a{
+    font-family: 'DM Sans';
+    font-weight: 600;
+    color: #fff;
+    background: #101010;
+    padding: 15px 22px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .containerFooter{
@@ -577,7 +584,7 @@ footer{
     margin-bottom: 3rem;
 }
 
-@media(min-width: 1420px){
+@media(min-width: 1024px){
 
     .menuMobile{
         display: none;
@@ -590,16 +597,16 @@ footer{
     }
 
     .logo{
-        margin-left: 7.5rem;
-        margin-top: 2rem;
-        margin-right: 2.38rem;
+        margin-left: clamp(2rem, 7vw, 7.5rem);
+        margin-top: clamp(1rem, 2vh, 2rem);
+        margin-right: clamp(1rem, 2vw, 2.38rem);
     }
 
     .login a{
         text-decoration: none;
         list-style: none;
         color: #1D1D21;
-        font-size: 1rem;
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
         font-weight: 600;
         line-height: 150%;
     }
@@ -610,8 +617,8 @@ footer{
     }
 
     .login nav ul {
-        margin-top: 2.8rem;
-        margin-right: 2rem;
+        margin-top: clamp(2rem, 3vh, 2.8rem);
+        margin-right: clamp(1rem, 2vw, 2rem);
     }
 
     .login li{
@@ -619,32 +626,32 @@ footer{
     }
 
     .login button{
-        padding: 1rem 1.69rem;
-        border-radius: 6.25rem;
+        padding: clamp(0.8rem, 1.5vw, 1rem) clamp(1.5rem, 3vw, 1.69rem);
+        border-radius: clamp(3rem, 5vw, 6.25rem);
         font-weight: 600;
-        font-size: 1rem;
+        font-size: clamp(0.875rem, 1.2vw, 1rem);
         color: #FFF;
         background-color: #1D1D21;
         line-height: 150%;
-        margin-right: 7.6rem;
-        margin-top: 1.8rem;
+        margin-right: clamp(5rem, 10vw, 7.6rem);
+        margin-top: clamp(1rem, 2vh, 1.8rem);
     }
 
     .paginas{
-        margin-right: 27rem;
+        margin-right: clamp(15rem, 20vw, 27rem);
     }
 
     .paginas nav ul{
         display: flex;
         flex-direction: row;
-        gap: 2rem;
-        margin-top: 2.8rem;
+        gap: clamp(1rem, 2vw, 2rem);
+        margin-top: clamp(2rem, 3vh, 2.8rem);
     }
 
     .paginas a{
         text-decoration: none;
         color: #878787;
-        font-size: 1rem;
+        font-size: clamp(0.875rem, 1.5vw, 1rem);
         font-weight: 400;
         line-height: 150%;
     }
@@ -659,46 +666,46 @@ footer{
     }
 
     .secao-introducao{
-        padding-left: 5.69rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
     .botaoInicial button{
-        font-size: 0.875rem;
-        margin-top: 1.25rem;
+        font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+        margin-top: clamp(1rem, 2vh, 1.25rem);
     }
 
     .conteudoIntroducao h1{
-        font-size: 8.75rem;
+        font-size: clamp(5rem, 12vw, 8.75rem);
         max-width: 50%;
-        margin-top: 0.5rem;
+        margin-top: clamp(0.25rem, 2vh, 0.5rem);
     }
 
     .conteudoIntroducao p{
-        font-size: 1rem;
+        font-size: clamp(0.875rem, 2vw, 1rem);
         max-width: 42%;
-        margin-top: 0.5rem;
+        margin-top: clamp(0.25rem, 2vh, 0.5rem);
     }
 
     .botaoCasoEstudo button{
-        padding: 1rem 2rem;
+        padding: clamp(0.8rem, 2vw, 1rem) clamp(1.5rem, 3vw, 2rem);
     }
 
     .botaoVerVideo button{
-        padding: 1rem 1.34rem ;
+        padding: clamp(0.8rem, 2vw, 1rem) clamp(1rem, 2.5vw, 1.34rem);
     }
 
     .botaoCasoEstudo {
-        margin-top: 3rem;
+        margin-top: clamp(2rem, 5vh, 3rem);
     }
 
     .botaoVerVideo {
-        margin-top: 3rem;
+        margin-top: clamp(2rem, 5vh, 3rem);
     }
 
     .imagemDestaque{
-        margin-top: 0.92rem;
-        margin-left: -41rem;
-        margin-bottom: 6.57rem;
+        margin-top: clamp(1rem, 3vh, 0.92rem);
+        margin-left: clamp(-20rem, -30vw, -41rem);
+        margin-bottom: clamp(4rem, 8vh, 6.57rem);
     }
 
     .imagemDestaque img{
@@ -719,36 +726,36 @@ footer{
     .segundaPagina{
         display: flex;
         flex-direction: row;
-        padding-left: 6rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
     .cabecalhoProjetos{
-        margin-top: 4.81rem;
+        margin-top: clamp(2rem, 5vw, 4.81rem);
     }
 
     .cabecalhoProjetos h2{
-        font-size: 4.5rem;
+        font-size: clamp(2.5rem, 6vw, 4.5rem);
         max-width: 45%;
-        margin-bottom: 1.5rem;
+        margin-bottom: clamp(1rem, 2vh, 1.5rem);
     }
 
     .cabecalhoProjetos p{
         max-width: 85%;
-        margin-bottom: 4.12rem;
+        margin-bottom: clamp(3rem, 5vh, 4.12rem);
     }
 
     .dado img{
-        width: 15%;
-        height: 15%;
-        margin-top: 0.5rem;
+        width: clamp(10%, 20vw, 15%);
+        height: auto;
+        margin-top: clamp(0.25rem, 1vh, 0.5rem);
     }
 
     .separar p{
-        font-size: 1.125rem;
+        font-size: clamp(1rem, 2vw, 1.125rem);
     }
 
     .estilizar p{
-        font-size: 4rem;
+        font-size: clamp(2.5rem, 5vw, 4rem);
         line-height: 115%;
     }
 
@@ -762,7 +769,7 @@ footer{
     }
 
     .imagem2 img{
-         width: 75%;
+        width: 75%;
         height: 75%;
     }
 
@@ -778,7 +785,7 @@ footer{
     }
 
     .terceiraPagina{
-        padding-left: 6rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
     .cabecalhoInterior{
@@ -787,25 +794,25 @@ footer{
     }
 
     .cabecalhoInterior h2{
-        font-size: 4rem;
-        margin-bottom: 1rem;
+        font-size: clamp(2.5rem, 6vw, 4.5rem);
+        margin-bottom: clamp(1rem, 2vh, 1.5rem);
     }
 
     .cabecalhoInterior p{
         font-weight: 500;
         max-width: 75%;
-        margin-bottom: 4.06rem;
+        margin-bottom: clamp(3rem, 5vh, 4.06rem);
     }
 
     .imagemSuperior{
-        margin-top: 7.5rem;
-        margin-right: 7.5rem;
-        margin-bottom: 3rem;
+        margin-top: clamp(3rem, 6vh, 7.5rem);
+        margin-right: clamp(3rem, 5vw, 7.5rem);
+        margin-bottom: clamp(2rem, 5vh, 3rem);
     }
 
     .imagemInferior{
         margin: 0;
-        margin-bottom: 6.88rem;
+        margin-bottom: clamp(4rem, 7vh, 6.88rem);
     }
 
     .imagemSuperior img{
@@ -826,12 +833,12 @@ footer{
     .quartaPagina{
         display: flex;
         flex-direction: row;
-        padding-left: 6rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
     .quartaFrase{
-        width: 50%;
-        margin-left: 4.19rem;
+        width: clamp(30%, 45vw, 50%);
+        margin-left: clamp(1rem, 5vw, 4.19rem);
     }
 
     .imagemQuartaPg{
@@ -839,8 +846,8 @@ footer{
     }
 
     .quartaFrase h2{
-        margin-top: 9.92rem;
-        font-size: 4rem;
+        font-size: clamp(2.5rem, 6vw, 4.5rem);
+        margin-bottom: clamp(1rem, 2vh, 1.5rem);
         margin-bottom: 2rem;
     }
 
@@ -854,16 +861,16 @@ footer{
     }
 
     .quintaPagina{
-        padding-left: 6rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
     .quintoTitulo{
-        max-width: 60%;
+        max-width: 70%;
     }
 
     .quintoTitulo h2{
         font-size: 4rem;
-        margin-left: 9.5rem;
+        margin-left: 15.5rem;
         margin-top: 9.69rem;
     }
 
@@ -872,16 +879,49 @@ footer{
     }
 
     .imagemProjeto{
-        
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .imagemProjeto img{
+        width: 85%;
+        height: 60%;
+    }
+
+    .iconeEstrela{
+        margin-right: 5.44rem;
+    }
+
+    .iconeEstrela img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagemTrabalhando{
+        margin-right: 1.94rem;
+    }
+
+    .imagemTrabalhando img{
+        width: 100%;
+        height: 100%;
+    }
+    .dica1 h3{
+        font-size: 2.5rem;
+    }
+
+    .dica1 p{
+        font-size: 1rem;
+        max-width: 80%;
     }
 
     .dica2{
         display: block;
+        margin-bottom: 0.56rem;
     }
 
     .dica2 h3{
         color: #1D1E25;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 700;
         line-height: 120%;
         font-family: "DM Sans", sans-serif;
@@ -890,7 +930,7 @@ footer{
 
     .dica2 p{
         color: #757B8A;
-        font-size: 0.875rem;
+        font-size: 1rem;
         font-weight: 400;
         max-width: 60%;
         line-height: 150%;
@@ -898,10 +938,11 @@ footer{
 
     .numero p{
         font-family: "DM Sans", sans-serif;
-        font-size: 3.75rem;
+        font-size: 5rem;
         font-weight: 700;
         line-height: 4.5rem;
         color: #E9ECF2;
+        margin-bottom: 0.25em;
     }
 
     .trabalhoEquipe{
@@ -914,10 +955,44 @@ footer{
         justify-content: space-between;
     }
 
+    .detalhe{
+        display: flex;
+        justify-content: center;
+        margin-bottom: clamp(2rem, 4vh, 4.06rem);
+    }
+
+    .detalhe1{
+        width: 13.375rem;
+        height: clamp(0.25rem, 1vh, 0.375rem);
+    }
+
+    .detalhe2{
+        width: 19.75rem;
+        height: clamp(0.25rem, 1vh, 0.375rem);
+    }
+
+    .sextaPagina{
+        padding-top: 7.56rem;
+        padding-left: clamp(3rem, 5vw, 7.5rem);
+        padding-bottom: 7.44rem;
+    }
+
     .sextoTitulo{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .sextoTitulo h2{
+        font-size: clamp(2.5rem, 6vw, 4.5rem);
+        max-width: 30%;
+        margin-bottom: clamp(1rem, 2vh, 1.5rem);
+    }
+
+    .sextoTitulo p{
+        font-size: 1rem;
+        max-width: 21.5%;
+        margin-right: 7.19rem;
     }
 
     .comentarios{
@@ -925,8 +1000,33 @@ footer{
         flex-direction: row;
     }
 
+    .comentario1 .conteudo p{
+        max-width: 90%;
+    }
+
+    .comentario1{
+        margin-right: 13.81rem;
+    }
+
+    .comentario2 .conteudo p{
+        max-width: 80%;
+    }
+
+    .comentario2{
+        margin-left: 11.25rem;
+    }
+
+    .detalhe3{
+        width: clamp(0.25rem, 0.5vw, 0.0625rem);
+        height: clamp(10rem, 20vh, 15.6875rem);
+    }
+
     .tresPontos{
         display: block;
+        display: flex;
+        justify-content: center;
+        margin-left: clamp(-3rem, -5vw, -5rem);
+        margin-top: clamp(3rem, 6vh, 4rem);
     }
 
     .cabecalhoFooter{
@@ -935,9 +1035,61 @@ footer{
         justify-content: space-between;
     }
 
+    .logoFinal{
+        width: clamp(40%, 50%, 60%);
+        height: 60%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: clamp(3rem, 5vw, 7.5rem);
+    }
+
     .iniciar{
         display: flex;
         flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .iniciar p{
+        margin-top: clamp(1rem, 2vh, 1.5rem);
+        margin-right: clamp(2rem, 3vw, 1.94rem);
+    }
+
+    .iniciar button{
+        margin-right: clamp(5rem, 7vw, 7.56rem);
+    }
+
+    .detalhe4{
+        width: clamp(70%, 80%, 83%);
+        height: clamp(0.05rem, 1vh, 0.0625rem);
+        background-color: #E9ECEF;
+        display: flex;
+        justify-self: center;
+        margin-top: clamp(-1rem, -2vh, -2.57rem);
+        margin-bottom: clamp(1.5rem, 3vh, 2.5rem);
+    }
+
+    .separar6{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .inscrever{
+        margin-left: 6rem;
+    }
+
+    .tituloFinal1{
+        display: none;
+    }
+
+    .tituloFinal2 {
+        display: block;
+    }
+
+    .tituloFinal2 h2{
+        font-size: 2.5rem;
+        max-width: 90%;
+        font-family: 'DM Sans';
     }
 
     .containerFooter{
@@ -946,9 +1098,35 @@ footer{
         flex-direction: row;
     }
 
-    .separar6{
-        display: flex;
-        flex-direction: row;
+    .servico p{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        margin-right: 9rem;
+        color: #33353E;
+    }
+
+    .ajuda p{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        margin-right: 9rem;
+        color: #33353E;
+    }
+
+    .sobre p{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        margin-right: 9rem;
+        color: #33353E;
+    }
+
+    .escurecer p{
+        color: #1D1D21;
+        font-weight: 700;
+        font-size: 1.125rem;
+        margin-bottom: 1.25rem;
     }
 
     .terminoFooter{
@@ -956,6 +1134,25 @@ footer{
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .politicaEtermos{
+        margin-left: 6rem;
+    }
+
+    .politicaEtermos p{
+        font-size: 1rem;
+        margin-right: 3.44rem;
+    }
+
+    .redesSociais{
+        margin-right: 7rem;
+    }
     
+    }
+
+    @media (min-width: 600px) and (max-width: 800px) {
+    }
+
+    @media (min-width: 800px) and (max-width: 1024px) {
     }
 
