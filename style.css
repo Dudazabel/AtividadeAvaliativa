@@ -701,6 +701,7 @@ footer{
 
     .botaoVerVideo {
         margin-top: clamp(2rem, 5vh, 3rem);
+        margin-bottom: 10.31rem;
     }
 
     .imagemDestaque{
@@ -727,6 +728,7 @@ footer{
     .segundaPagina{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         padding-left: clamp(3rem, 5vw, 7.5rem);
     }
 
@@ -838,12 +840,9 @@ footer{
     }
 
     .quartaFrase{
-        width: clamp(30%, 45vw, 50%);
+        width:50%;
         margin-left: clamp(1rem, 5vw, 4.19rem);
-    }
-
-    .imagemQuartaPg{
-        margin-bottom: -0.44rem;
+        align-content: end;
     }
 
     .quartaFrase h2{
@@ -854,11 +853,15 @@ footer{
 
     .imagemQuartaPg img{
         width: 100%;
-        height: 85%;
+        height: 100%;
+    }
+
+    .imagemQuartaPg{
+        width: 50%;
     }
 
     .quartaFrase p{
-        max-width: 77%;
+       margin: 0px !important;
     }
 
     .quintaPagina{
@@ -871,7 +874,6 @@ footer{
 
     .quintoTitulo h2{
         font-size: 4rem;
-        margin-left: 15.5rem;
         margin-top: 9.69rem;
     }
 
@@ -1148,32 +1150,4 @@ footer{
     .redesSociais{
         margin-right: 7rem;
     }
-    
     }
-
-    @media (min-width: 1024px) and (max-width: 1350px){
-        .botaoVerVideo{
-            margin-bottom: 10.31rem;
-        }
-    }
-
-    @media (min-width: 700px) and (max-width: 1024px) {
-
-        .conteudoIntroducao p{
-            max-width: 50%;
-        }
-
-        .cabecalhoProjetos p{
-            max-width: 50%;
-        }
-
-        .cabecalhoInterior p{
-            max-width: 50%;
-        }
-
-        .quartaFrase{
-            max-width: 50%;
-        }
-
-    }
-
