@@ -748,7 +748,7 @@ footer{
     }
 
     .dado img{
-        width: clamp(10%, 20vw, 15%);
+        width: auto;
         height: auto;
         margin-top: clamp(0.25rem, 1vh, 0.5rem);
     }
@@ -1150,4 +1150,24 @@ footer{
     .redesSociais{
         margin-right: 7rem;
     }
+    }
+
+    @media(max-width:1250px){
+        .quintoTitulo{
+            max-width: 61.8%;
+            margin-bottom: 4rem;
+        }
+
+        .imagemTrabalhando{
+            margin-right: 1rem;
+        }
+
+        .containerFooter{
+            margin-left: 2rem;
+        }
+        
+
+        .iniciar p{
+            margin-top: 2rem;
+        }
     }
